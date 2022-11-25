@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S9-WeeklyProject Finale</title>
+    <meta name="description" content="Progetto settimanale settimana 9 + HTML">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi' crossorigin='anonymous'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3'
+        crossorigin='anonymous'></script>
+</head>
+
+<body>
+
+    <div class="cellulare d-flex justify-content-center align-items-center flex-column my-0 mx-auto">
+        <div id="schermo">
+            <input id="display" class="text-center my-3" type="text" value="龴ↀ◡ↀ龴" readonly>
+            <div class="lineTop mx-2"></div>
+        </div>
+        <div class="tasti">
+            <div class="ricarica d-flex justify-content-center">
+                <input id="ricaricaValue" type="number" class="ps-4 rounded-top-left" placeholder="Ricarica qua i soldi">
+                <button id="ricaricaSoldi" class="inputBtn btns orange border border-dark p-0 rounded-top-right" type="button">🧧</button>
+            </div>
+            <div class="durata d-flex justify-content-center">
+                <input id="tempoValue" type="number" class="ps-4 rounded-bottom-left" placeholder="Tempo di chiamata trascorso">
+                <button id="tempoBtn" class="inputBtn btns grayLight border border-dark p-0 rounded-bottom-right" type="button">⌚</button>
+            </div>
+            <div class="lineBot"></div>
+            <div class="onlyBtn">
+                <div class="saldo">
+                    <button id="balance" type="button" class="btns grayLight">Saldo</button>
+                </div>
+                <div class="qty">
+                    <button id="nChiamate" type="button" class="btns grayLight">Numero Chiamate</button>
+                </div>
+                <div class="clear">
+                    <button id="clearAll" type="button" class="btns orange">Delete System32 </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/ts/script.js"></script>
+</body>
+
+
+</html>
